@@ -1,7 +1,8 @@
 import "./App.css";
-import { Experience } from "./components/Experience";
+// import { Home } from "./components/Home";
+// import { About } from "./components/About";
 // import { useEffect } from "react";
-// import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom"; // When I uncomment this, my Navigation nav section disapears from the page
 
 function App() {
   // useEffect(() => {
@@ -42,24 +43,29 @@ function App() {
 
   return (
     <div className="App">
+      <section>
+        <div id="AustinComstock">
+          <h1>Austin Comstock</h1>
+        </div>
+      </section>
       {/* Navigation */}
       <section>
         <nav
-          class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+          className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
           id="sideNav"
         >
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Austin Comstock</span>
-            <span class="d-none d-lg-block">
+          <a className="navbar-brand js-scroll-trigger" href="#page-top">
+            <span className="d-block d-lg-none">Austin Comstock</span>
+            <span className="d-none d-lg-block">
               <img
-                class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                className="img-fluid img-profile rounded-circle mx-auto mb-2"
                 src="/Images/austinprofilepic.jpg"
                 alt="..."
               />
             </span>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarResponsive"
@@ -67,33 +73,33 @@ function App() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#about">
                   About
                 </a>
-                {/* <Link to="/">About</Link> */}
+                {/* <Link to="/#about">About</Link> */}
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#experience">
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#experience">
                   Experience
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#projects">
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#projects">
                   Projects
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#skills">
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#skills">
                   Skills
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#interests">
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#interests">
                   Interests
                 </a>
               </li>
@@ -102,56 +108,12 @@ function App() {
         </nav>
       </section>
 
-      {/* About */}
-
-      <section className="resume-section" id="about">
-        <div className="resume-section-content">
-          <h1 className="mb-0">
-            Austin
-            <span className="text-primary">Comstock</span>
-          </h1>
-          <div className="subheading mb-5">
-            2063 W 12130 S · Riverton, UT 84065 · (801) 558-9783 ·
-            <a href="mailto: austinjcomstock@gmail.com">
-              austinjcomstock@gmail.com
-            </a>
-          </div>
-          <p className="lead mb-5">
-            I am experienced in Front End Web Development using HTML, CSS,
-            JavaScript and React. I'm using Visual Studio Code, Github and
-            Vercel for my projects.
-          </p>
-          <div className="social-icons">
-            <a
-              className="social-icon"
-              href="https://www.linkedin.com/in/austincomstock/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a
-              className="social-icon"
-              href="https://github.com/austincomstock"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              className="social-icon"
-              href="https://www.facebook.com/austin.comstock.18/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/#about" element={<About />} />
+        <Route path="/#experience" element={<Experience />} />
+        <Route path="/#projects" element={<Projects />} />
+        <Route path="/#skills" element={<Skills />} />
+        <Route path="/#interests" element={<Interests />} />
       </Routes> */}
     </div>
   );

@@ -1,5 +1,5 @@
 import "./App.css";
-import { Home } from "./components/Home/index";
+// import { Home } from "./components/Home/index";
 import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
@@ -91,7 +91,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="about">
+                <a className="nav-link js-scroll-trigger" href="/">
                   About
                 </a>
               </li>
@@ -121,8 +121,9 @@ function App() {
       </section>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} /> */}
+        <Route path="/" element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />

@@ -1,5 +1,4 @@
 import "./App.css";
-// import { Home } from "./components/Home/index";
 import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
@@ -48,19 +47,6 @@ function App() {
 
   return (
     <div>
-      {/* Austin Section */}
-      {/* <section>
-        <div id="AustinComstock">
-          <h1>Austin Comstock</h1>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <Link to="/">Home test</Link>
-            </li>
-          </ul>
-        </div>
-      </section> */}
       {/* Navigation */}
       <section>
         <nav
@@ -121,8 +107,6 @@ function App() {
       </section>
 
       <Routes>
-        {/* <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} /> */}
         <Route path="/" element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />

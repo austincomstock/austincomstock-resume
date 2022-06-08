@@ -5,27 +5,35 @@ export const Skills = () => {
     <section className="resume-section" id="skills">
       <div className="resume-section-content">
         <h2 className="mb-5">Skills</h2>
+        {/* Programming Languages & Tools */}
         <div className="subheading mb-3">Programming Languages & Tools</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
             <i className="fab fa-html5"></i>
+            <h6>HTML</h6>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-css3-alt"></i>
+            <h6>CSS</h6>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-js-square"></i>
+            <h6>JavaScript</h6>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-react"></i>
+            <h6>React</h6>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-node-js"></i>
+            <h6>NodeJS</h6>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-npm"></i>
+            <h6>NPM</h6>
           </li>
         </ul>
+        {/* Workflow */}
         <div className="subheading mb-3">Workflow</div>
         <ul className="fa-ul mb-0">
           <li>
@@ -47,6 +55,7 @@ export const Skills = () => {
             Cross Functional Teams
           </li>
         </ul>
+        {/* Awards & Certifications */}
         <div className="subheading mb-3">Awards & Certifications</div>
         <ul className="fa-ul mb-0">
           <li>
@@ -62,6 +71,7 @@ export const Skills = () => {
             Codecademy
           </li>
         </ul>
+        {/* Education */}
         <div className="subheading mb-3">Education</div>
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">

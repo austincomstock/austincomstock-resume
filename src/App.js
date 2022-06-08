@@ -1,21 +1,22 @@
 import "./App.css";
-// import { Home } from "./components/Home";
-// import { About } from "./components/About";
-// import { useEffect } from "react";
-import { Routes, Route, Link } from "react-router-dom"; // When I uncomment this, my Navigation nav section disapears from the page
+import { Home } from "./components/Home/index";
+import { About } from "./components/About";
+import { useEffect } from "react";
+import { Routes, Route, Link } from "react-router-dom";
+// import bootstrap from "bootstrap";
 
 function App() {
   // useEffect(() => {
-  /*!
-   * Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
-   * Copyright 2013-2022 Start Bootstrap
-   * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-   */
-  //
-  // Scripts
-  //
+  //   /*!
+  //    * Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
+  //    * Copyright 2013-2022 Start Bootstrap
+  //    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
+  //    */
+  //   //
+  //   // Scripts
+  //   //
 
-  // Tony helped with this initially. But I commeneted out the code below becuase it's throwing an error 'bootstrap' is not defined  no-undef
+  //   // Tony helped with this initially. But I commeneted out the code below becuase it's throwing an error 'bootstrap' is not defined  no-undef
   //   window.addEventListener("DOMContentLoaded", (event) => {
   //     // Activate Bootstrap scrollspy on the main nav element
   //     const sideNav = document.body.querySelector("#sideNav");
@@ -43,6 +44,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* Austin Section */}
       <section>
         <div id="AustinComstock">
           <h1>Austin Comstock</h1>
@@ -81,7 +83,6 @@ function App() {
                 <a className="nav-link js-scroll-trigger" href="#about">
                   About
                 </a>
-                {/* <Link to="/#about">About</Link> */}
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#experience">
@@ -108,12 +109,10 @@ function App() {
         </nav>
       </section>
 
+      {/* Routes - When I uncomment this, my Navigation nav section disapears from the page */}
       {/* <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/#about" element={<About />} />
-        <Route path="/#experience" element={<Experience />} />
-        <Route path="/#projects" element={<Projects />} />
-        <Route path="/#skills" element={<Skills />} />
-        <Route path="/#interests" element={<Interests />} />
       </Routes> */}
     </div>
   );

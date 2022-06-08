@@ -1,6 +1,7 @@
 import "./App.css";
 import { Home } from "./components/Home/index";
 import { About } from "./components/About";
+import { Experience } from "./components/Experience";
 import { useEffect } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 // import bootstrap from "bootstrap";
@@ -54,15 +55,6 @@ function App() {
             <li className="ListOneItem">
               <Link to="/">Home</Link>
             </li>
-            <li className="ListOneItem">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="ListOneItem">
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li className="ListOneItem">
-              <Link to="/contact">Contact</Link>
-            </li>
           </ul>
         </div>
       </section>
@@ -96,27 +88,27 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#about">
+                <a className="nav-link js-scroll-trigger" href="about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#experience">
+                <a className="nav-link js-scroll-trigger" href="experience">
                   Experience
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#projects">
+                <a className="nav-link js-scroll-trigger" href="projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#skills">
+                <a className="nav-link js-scroll-trigger" href="skills">
                   Skills
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#interests">
+                <a className="nav-link js-scroll-trigger" href="interests">
                   Interests
                 </a>
               </li>
@@ -129,6 +121,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
       </Routes>
     </div>
   );

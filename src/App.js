@@ -51,8 +51,8 @@ function App() {
           <h1>Austin Comstock</h1>
         </div>
         <div>
-          <ul className="ListOne">
-            <li className="ListOneItem">
+          <ul>
+            <li>
               <Link to="/">Home</Link>
             </li>
           </ul>

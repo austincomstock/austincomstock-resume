@@ -43,11 +43,27 @@ function App() {
   // });
 
   return (
-    <div className="App">
+    <div>
       {/* Austin Section */}
       <section>
         <div id="AustinComstock">
           <h1>Austin Comstock</h1>
+        </div>
+        <div>
+          <ul className="ListOne">
+            <li className="ListOneItem">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="ListOneItem">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="ListOneItem">
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li className="ListOneItem">
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
         </div>
       </section>
       {/* Navigation */}
@@ -110,10 +126,10 @@ function App() {
       </section>
 
       {/* Routes - When I uncomment this, my Navigation nav section disapears from the page */}
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/#about" element={<About />} />
-      </Routes> */}
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaNpm } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 
 export const Skills = () => {
   return (
@@ -9,27 +11,32 @@ export const Skills = () => {
         <div className="subheading mb-3">Programming Languages & Tools</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
-            <i className="fab fa-html5"></i>
+            {/* <i className="fab fa-html5"></i> */}
+            <FaHtml5 />
             <h6>HTML</h6>
           </li>
           <li className="list-inline-item">
-            <i className="fab fa-css3-alt"></i>
+            {/* <i className="fab fa-css3-alt"></i> */}
+            <FaCss3Alt />
             <h6>CSS</h6>
           </li>
           <li className="list-inline-item">
-            <i className="fab fa-js-square"></i>
+            {/* <i className="fab fa-js-square"></i> */}
+            <IoLogoJavascript />
             <h6>JavaScript</h6>
           </li>
           <li className="list-inline-item">
-            <i className="fab fa-react"></i>
+            {/* <i className="fab fa-react"></i> */}
+            <FaReact />
             <h6>React</h6>
           </li>
           <li className="list-inline-item">
-            <i className="fab fa-node-js"></i>
+            {/* <i className="fab fa-node-js"></i> */}
+            <FaNodeJs />
             <h6>NodeJS</h6>
           </li>
           <li className="list-inline-item">
-            <i className="fab fa-npm"></i>
+            <FaNpm />
             <h6>NPM</h6>
           </li>
         </ul>

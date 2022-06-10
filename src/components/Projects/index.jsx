@@ -11,7 +11,14 @@ export const Projects = () => {
             <span className="fa-li">
               <i className="fas fa-check"></i>
             </span>
-            Task Flip React App
+            <a
+              // className="social-icon"
+              href="https://task-flip-ten.vercel.app/signin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Task Flip React App
+            </a>
           </li>
           <li>
             <span className="fa-li">

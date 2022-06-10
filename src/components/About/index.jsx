@@ -1,4 +1,5 @@
 import React from "react";
+import { BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
 export const About = () => {
   return (
@@ -26,7 +27,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-linkedin-in"></i>
+            <BsLinkedin />
           </a>
           <a
             className="social-icon"
@@ -34,7 +35,7 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-github"></i>
+            <BsGithub />
           </a>
           <a
             className="social-icon"
@@ -42,7 +43,8 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-facebook-f"></i>
+            {/* <i className="fab fa-facebook-f"></i> */}
+            <BsFacebook />
           </a>
         </div>
       </div>

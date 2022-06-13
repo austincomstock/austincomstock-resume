@@ -1,4 +1,7 @@
 import React from "react";
+import { ThePupSpa } from "./../../Pages/ThePupSpa/index";
+import { TheTeaCozy } from "./../../Pages/TheTeaCozy/index";
+import { Routes, Route, Link } from "react-router-dom";
 
 export const Projects = () => {
   return (
@@ -33,13 +36,15 @@ export const Projects = () => {
             <span className="fa-li">
               <i className="fas fa-check"></i>
             </span>
-            The Pup Spa
+            {/* <ThePupSpa /> */}
+            <Link to="/pages/thepupspa">The Pup Spa</Link>
           </li>
           <li>
             <span className="fa-li">
               <i className="fas fa-check"></i>
             </span>
-            The Tea Cozy
+            {/* <TheTeaCozy /> */}
+            <Link to="/pages/theteacozy">The Tea Cozy</Link>
           </li>
           <li>
             <span className="fa-li">
@@ -49,6 +54,11 @@ export const Projects = () => {
           </li>
         </ul>
       </div>
+
+      <Routes>
+        <Route path="/pages/thepupspa" element={<ThePupSpa />} />
+        <Route path="/pages/theteacozy" element={<TheTeaCozy />} />
+      </Routes>
     </section>
   );
 };

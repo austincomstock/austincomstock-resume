@@ -124,7 +124,8 @@ h1,
 
 h1,
 .h1 {
-  font-size: calc(1.725rem + 5.7vw);
+  /* font-size: calc(1.725rem + 5.7vw); */
+  font-size: calc(1.2rem + 5.1vw);
 }
 
 @media (min-width: 1200px) {
@@ -132,6 +133,7 @@ h1,
   h1,
   .h1 {
     font-size: 6rem;
+    /* font-size: 3rem; */
   }
 }
 

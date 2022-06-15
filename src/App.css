@@ -8325,7 +8325,8 @@ fieldset:disabled .btn {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  /* margin-bottom: 3rem !important; */
+  margin-bottom: 1.5rem !important;
 }
 
 .mb-auto {

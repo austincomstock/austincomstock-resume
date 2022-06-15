@@ -6,7 +6,7 @@ import { Skills } from "./components/Skills";
 import { Interests } from "./components/Interests";
 import { useEffect } from "react";
 // import { Routes, Route, Link } from "react-router-dom";
-// import bootstrap from "bootstrap";
+import * as bootstrap from "bootstrap";
 
 function App() {
   useEffect(() => {
@@ -22,13 +22,13 @@ function App() {
     //   // Tony helped with this initially. But I commeneted out the code below becuase it's throwing an error 'bootstrap' is not defined  no-undef
     window.addEventListener("DOMContentLoaded", (event) => {
       // Activate Bootstrap scrollspy on the main nav element
-      // const sideNav = document.body.querySelector("#sideNav");
-      // if (sideNav) {
-      //   new bootstrap.ScrollSpy(document.body, {
-      //     target: "#sideNav",
-      //     offset: 74,
-      //   });
-      // }
+      const sideNav = document.body.querySelector("#sideNav");
+      if (sideNav) {
+        new bootstrap.ScrollSpy(document.body, {
+          target: "#sideNav",
+          offset: 74,
+        });
+      }
 
       // Collapse responsive navbar when toggler is visible
       const navbarToggler = document.body.querySelector(".navbar-toggler");
@@ -36,7 +36,7 @@ function App() {
         document.querySelectorAll("#navbarResponsive .nav-link")
       );
       responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener("click", () => {
+        return responsiveNavItem.addEventListener("click", () => {
           if (window.getComputedStyle(navbarToggler).display !== "none") {
             navbarToggler.click();
           }
@@ -53,7 +53,7 @@ function App() {
           className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
           id="sideNav"
         >
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
+          <a className="navbar-brand js-scroll-trigger" href="/#">
             <span className="d-block d-lg-none">Austin Comstock</span>
             <span className="d-none d-lg-block">
               <img
@@ -113,13 +113,6 @@ function App() {
         <Skills />
         <Interests />
       </>
-      {/* <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/interests" element={<Interests />} />
-      </Routes> */}
     </div>
   );
 }

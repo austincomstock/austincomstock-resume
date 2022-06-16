@@ -49,11 +49,15 @@ export const Projects = () => {
             {/* <Link to="/pages/theteacozy">The Tea Cozy</Link> */}
             The Tea Cozy
           </li>
+
           <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Placeholder
+            <a
+              href="https://food-app-austincomstock.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              AwesomeEats
+            </a>
           </li>
         </ul>
       </div>

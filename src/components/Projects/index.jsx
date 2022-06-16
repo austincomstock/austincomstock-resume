@@ -59,6 +59,12 @@ export const Projects = () => {
               AwesomeEats
             </a>
           </li>
+          <li>
+            <span className="fa-li">
+              <i className="fas fa-check"></i>
+            </span>
+            FriendBook
+          </li>
         </ul>
       </div>
 

@@ -73,6 +73,8 @@ export const Skills = () => {
           </li>
         </ul> */}
 
+        <br></br>
+
         {/* Education */}
         <div className="subheading mb-3">Education</div>
         <div>

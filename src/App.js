@@ -18,8 +18,6 @@ function App() {
     //   //
     //   // Scripts
     //   //
-
-    //   // Tony helped with this initially. But I commeneted out the code below becuase it's throwing an error 'bootstrap' is not defined  no-undef
     window.addEventListener("DOMContentLoaded", (event) => {
       // Activate Bootstrap scrollspy on the main nav element
       const sideNav = document.body.querySelector("#sideNav");

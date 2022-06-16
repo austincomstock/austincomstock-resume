@@ -13,31 +13,25 @@ export const Skills = () => {
           <li className="list-inline-item">
             {/* <i className="fab fa-html5"></i> */}
             <FaHtml5 />
-            <h6>HTML</h6>
           </li>
           <li className="list-inline-item">
             {/* <i className="fab fa-css3-alt"></i> */}
             <FaCss3Alt />
-            <h6>CSS</h6>
           </li>
           <li className="list-inline-item">
             {/* <i className="fab fa-js-square"></i> */}
             <IoLogoJavascript />
-            <h6>JavaScript</h6>
           </li>
           <li className="list-inline-item">
             {/* <i className="fab fa-react"></i> */}
             <FaReact />
-            <h6>React</h6>
           </li>
           <li className="list-inline-item">
             {/* <i className="fab fa-node-js"></i> */}
             <FaNodeJs />
-            <h6>NodeJS</h6>
           </li>
           <li className="list-inline-item">
             <FaNpm />
-            <h6>NPM</h6>
           </li>
         </ul>
         {/* Workflow */}
@@ -63,7 +57,7 @@ export const Skills = () => {
           </li>
         </ul>
         {/* Awards & Certifications */}
-        <div className="subheading mb-3">Awards & Certifications</div>
+        {/* <div className="subheading mb-3">Awards & Certifications</div>
         <ul className="fa-ul mb-0">
           <li>
             <span className="fa-li">
@@ -77,24 +71,33 @@ export const Skills = () => {
             </span>
             Codecademy
           </li>
-        </ul>
+        </ul> */}
+
         {/* Education */}
         <div className="subheading mb-3">Education</div>
-        <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div className="flex-grow-1">
-            <p className="mb-0">Salt Lake Community College</p>
-          </div>
-          <div className="flex-shrink-0">
-            <span className="text-primary">2008 - 2010</span>
-          </div>
-        </div>
-        <div className="d-flex flex-column flex-md-row justify-content-between">
-          <div className="flex-grow-1">
-            <p className="mb-0">Alta High School</p>
-          </div>
-          <div className="flex-shrink-0">
-            <span className="text-primary">2006 - 2008</span>
-          </div>
+        <div>
+          <ul className="fa-ul mb-0">
+            <li>
+              <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="flex-grow-1">
+                  <p className="mb-0">Salt Lake Community College</p>
+                </div>
+                <div className="flex-shrink-0">
+                  <span className="text-primary">2008 - 2010</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="flex-grow-1">
+                  <p className="mb-0">Alta High School</p>
+                </div>
+                <div className="flex-shrink-0">
+                  <span className="text-primary">2006 - 2008</span>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

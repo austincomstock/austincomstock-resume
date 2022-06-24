@@ -7,7 +7,7 @@ export const Interests = () => {
         <h2 className="mb-5">Interests</h2>
         <p>
           I love to learn and to be challenged. I have always enjoyed building
-          things whether it's a construcion project or building something
+          things, whether it's a construction project or building something
           online.
         </p>
         <p>

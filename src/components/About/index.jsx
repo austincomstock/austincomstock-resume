@@ -16,10 +16,12 @@ export const About = () => {
           </a>
         </div>
         <p className="lead mb-5">
-          I am experienced in Front End Web Development using HTML, CSS,
-          JavaScript and React. I'm using Visual Studio Code, Github and Vercel
-          for my projects.
+          Experienced in Front End Web Development using HTML, CSS and
+          JavaScript. I use Visual Studio Code, Github and Vercel for my
+          projects. I'm currently learning ReactJS as well as backend
+          developement.
         </p>
+        <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">
           <a
             className="social-icon"

@@ -65,6 +65,18 @@ export const Projects = () => {
             </span>
             FriendBook
           </li>
+          <li>
+            <span className="fa-li">
+              <i className="fas fa-check"></i>
+            </span>
+            Background Generator
+          </li>
+          <li>
+            <span className="fa-li">
+              <i className="fas fa-check"></i>
+            </span>
+            Startup
+          </li>
         </ul>
       </div>
 

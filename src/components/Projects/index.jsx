@@ -1,8 +1,4 @@
 import React from "react";
-// import { ThePupSpa } from "./../../Pages/ThePupSpa/index";
-// import { TheTeaCozy } from "./../../Pages/TheTeaCozy/index";
-// import { Routes, Route, Link } from "react-router-dom";
-import { SiAwesomelists } from "react-icons/si";
 
 export const Projects = () => {
   return (
@@ -31,25 +27,18 @@ export const Projects = () => {
             </span>
             Placeholder
           </li>
-          <SiAwesomelists /> Placeholder
         </ul>
         <div className="subheading mb-3">Front End Projects</div>
         <ul className="fa-ul mb-0">
           <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            {/* <Link to="/pages/thepupspa">The Pup Spa</Link> */}
-            The Pup Spa
+            <a
+              href="https://robofriends-austincomstock.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RoboFriends
+            </a>
           </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            {/* <Link to="/pages/theteacozy">The Tea Cozy</Link> */}
-            The Tea Cozy
-          </li>
-
           <li>
             <a
               href="https://food-app-austincomstock.vercel.app/"

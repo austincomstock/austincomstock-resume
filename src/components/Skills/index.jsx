@@ -49,12 +49,9 @@ export const Skills = () => {
             </span>
             Cross Browser Testing & Debugging
           </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Cross Functional Teams
-          </li>
+          <li>Front End Development: HTML, CSS, JavaScript, ReactJS</li>
+          <li>Back End Development: NodeJS, ExpressJS, PostgreSQL</li>
+          <li>Tools: Visual Studio Code, Github, Vercel</li>
         </ul>
         {/* Awards & Certifications */}
         {/* <div className="subheading mb-3">Awards & Certifications</div>

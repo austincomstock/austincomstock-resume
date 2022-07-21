@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsFacebook, BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 
 export const About = () => {
   return (
@@ -10,27 +10,18 @@ export const About = () => {
           <span className="text-primary">Comstock</span>
         </h1>
         <div className="subheading mb-5">
-          2063 W 12130 S Riverton, UT 84065 · (801) 558-9783 ·
+          2063 W 12130 S Riverton, UT 84065 · (801) 558-9783 ·{" "}
           <a href="mailto: austinjcomstock@gmail.com">
             austinjcomstock@gmail.com
           </a>
         </div>
         <p className="lead mb-5">
-          Utah based Web Developer experienced in Front End Web Development. I
-          use Visual Studio Code, Github and Vercel for my projects. I'm
+          Utah based Web Developer experienced in Front End Web Development. I'm
           currently learning ReactJS as well as Backend Development i.e. servers
-          and databases.
+          and databases. Contact me via phone, email or social media.
         </p>
         <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">
-          <a
-            className="social-icon"
-            href="https://www.linkedin.com/in/austincomstock/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsLinkedin />
-          </a>
           <a
             className="social-icon"
             href="https://github.com/austincomstock"
@@ -41,11 +32,27 @@ export const About = () => {
           </a>
           <a
             className="social-icon"
+            href="https://www.linkedin.com/in/austincomstock/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            className="social-icon"
             href="https://www.facebook.com/austin.comstock.18/"
             target="_blank"
             rel="noreferrer"
           >
             <BsFacebook />
+          </a>
+          <a
+            className="social-icon"
+            href="https://www.instagram.com/austincomstock/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsInstagram />
           </a>
         </div>
       </div>

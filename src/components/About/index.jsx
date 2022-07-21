@@ -1,5 +1,4 @@
 import React from "react";
-import "./About.css";
 import { BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 
 export const About = () => {

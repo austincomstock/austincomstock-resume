@@ -17,22 +17,10 @@ export const About = () => {
           </a>
         </div>
         <p className="lead mb-5">
-          {/* Experienced in Front End Web Development using HTML, CSS and
-          JavaScript. I use Visual Studio Code, Github and Vercel for my
-          projects. I'm currently learning ReactJS as well as backend
-          developement. */}
           Utah based Web Developer experienced in Front End Web Development. I
           use Visual Studio Code, Github and Vercel for my projects. I'm
           currently learning React.js as well as Backend Development i.e.
           servers and databases.
-          {/* <ul className="nobulletli">
-            <li>Front End Web Development: HTML, CSS, JavaScript, React.js</li>
-            <li>Tools: Visual Studio Code, Github, Vercel</li>
-            <li>
-              Learning In Progress: Backend Development, Servers, Databases i.e.
-              PostgreSQL
-            </li>
-          </ul> */}
         </p>
         <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">

@@ -10,7 +10,7 @@ export const About = () => {
           <span className="text-primary">Comstock</span>
         </h1>
         <div className="subheading mb-5">
-          2063 W 12130 S · Riverton, UT 84065 · (801) 558-9783 ·
+          2063 W 12130 S Riverton, UT 84065 · (801) 558-9783 ·
           <a href="mailto: austinjcomstock@gmail.com">
             austinjcomstock@gmail.com
           </a>
@@ -18,8 +18,8 @@ export const About = () => {
         <p className="lead mb-5">
           Utah based Web Developer experienced in Front End Web Development. I
           use Visual Studio Code, Github and Vercel for my projects. I'm
-          currently learning React.js as well as Backend Development i.e.
-          servers and databases.
+          currently learning ReactJS as well as Backend Development i.e. servers
+          and databases.
         </p>
         <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">

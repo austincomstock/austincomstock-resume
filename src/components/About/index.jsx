@@ -45,7 +45,6 @@ export const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            {/* <i className="fab fa-facebook-f"></i> */}
             <BsFacebook />
           </a>
         </div>

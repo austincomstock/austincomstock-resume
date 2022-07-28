@@ -10,15 +10,14 @@ export const About = () => {
           <span className="text-primary">Comstock</span>
         </h1>
         <div className="subheading mb-5">
-          2063 W 12130 S Riverton, UT 84065 · (801) 558-9783 ·{" "}
+          Riverton, Utah · (801) 558-9783 ·{" "}
           <a href="mailto: austinjcomstock@gmail.com">
             austinjcomstock@gmail.com
           </a>
         </div>
         <p className="lead mb-5">
-          Utah based Web Developer experienced in Front End Web Development. I'm
-          currently learning ReactJS as well as Backend Development i.e. servers
-          and databases. Contact me via phone, email or social media.
+          Hello my name is Austin, I'm a Front End Web Developer passionate
+          about building and being creative. Interested in working together?
         </p>
         <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">

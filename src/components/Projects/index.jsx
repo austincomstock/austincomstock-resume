@@ -11,7 +11,6 @@ export const Projects = () => {
             <span className="fa-li">
               <i className="fas fa-check"></i>
             </span>
-
             <a
               // className="social-icon"
               href="https://task-flip-ten.vercel.app/signin"
@@ -25,7 +24,14 @@ export const Projects = () => {
             <span className="fa-li">
               <i className="fas fa-check"></i>
             </span>
-            Placeholder
+            <a
+              // className="social-icon"
+              href="https://facerecognitionbrain1.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Face Recognition Brain
+            </a>
           </li>
         </ul>
         <div className="subheading mb-3">Front End Projects</div>

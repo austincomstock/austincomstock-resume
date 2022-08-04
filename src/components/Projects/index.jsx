@@ -38,7 +38,7 @@ export const Projects = () => {
         <ul className="fa-ul mb-0">
           <li>
             <a
-              href="https://robofriends-austincomstock.vercel.app/"
+              href="https://robofriends-opal.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >

@@ -17,7 +17,7 @@ export const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Task Flip React App
+              Task Flip
             </a>
           </li>
           <li>

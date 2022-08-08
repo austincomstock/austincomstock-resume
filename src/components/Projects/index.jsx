@@ -34,7 +34,7 @@ export const Projects = () => {
             </a>
           </li>
         </ul>
-        <div className="subheading mb-3">Front End Projects</div>
+        <div className="subheading mb-3 mt-3">Front End Projects</div>
         <ul className="fa-ul mb-0">
           <li>
             <a

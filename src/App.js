@@ -5,7 +5,6 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Interests } from "./components/Interests";
 import { useEffect } from "react";
-// import { Routes, Route, Link } from "react-router-dom";
 import * as bootstrap from "bootstrap";
 
 function App() {

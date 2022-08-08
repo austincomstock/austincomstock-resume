@@ -55,30 +55,16 @@ export const Projects = () => {
             </a>
           </li>
           <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            FriendBook
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Background Generator
-          </li>
-          <li>
-            <span className="fa-li">
-              <i className="fas fa-check"></i>
-            </span>
-            Startup
+            <a
+              href="https://startup-five.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Startup
+            </a>
           </li>
         </ul>
       </div>
-
-      {/* <Routes>
-        <Route path="/pages/thepupspa" element={<ThePupSpa />} />
-        <Route path="/pages/theteacozy" element={<TheTeaCozy />} />
-      </Routes> */}
     </section>
   );
 };

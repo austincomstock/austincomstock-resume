@@ -11,7 +11,7 @@ export const Experience = () => {
             <div className="subheading mb-3">Enova International</div>
             <p>
               Identified need and spearheaded creation of internal
-              Wiki/Confluence pages to optimize the onboarding and training
+              wiki/confluence pages to optimize the onboarding and training
               process for leadership. This dramatically improved the onboarding
               process for managers and the leadership team due to all of the
               content being available in one location.
@@ -30,8 +30,8 @@ export const Experience = () => {
               call auditing percentage with 75% less staff, increasing from 6%
               of total calls audited to 30% by leading the implementation of a
               call auditing software to support the limited staff. Played a
-              major role in creating processes within the Compliance and Human
-              Resource departments to identify disciplinary guidelines for
+              major role in creating processes within the compliance and human
+              resource departments to identify disciplinary guidelines for
               representatives failing to meet compliance standards along with
               recognition processes to highlight outstanding performance.
             </p>

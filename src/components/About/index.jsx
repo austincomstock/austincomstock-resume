@@ -24,6 +24,7 @@ export const About = () => {
           <a
             className="social-icon"
             href="https://github.com/austincomstock"
+            aria-label="github link"
             target="_blank"
             rel="noreferrer"
           >
@@ -32,6 +33,7 @@ export const About = () => {
           <a
             className="social-icon"
             href="https://www.linkedin.com/in/austincomstock/"
+            aria-label="linkedin link"
             target="_blank"
             rel="noreferrer"
           >
@@ -40,6 +42,7 @@ export const About = () => {
           <a
             className="social-icon"
             href="https://www.facebook.com/austin.comstock.18/"
+            aria-label="facebook link"
             target="_blank"
             rel="noreferrer"
           >
@@ -48,6 +51,7 @@ export const About = () => {
           <a
             className="social-icon"
             href="https://www.instagram.com/austincomstock/"
+            aria-label="instagram link"
             target="_blank"
             rel="noreferrer"
           >

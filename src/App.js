@@ -1,22 +1,20 @@
 import "./App.css";
+import * as bootstrap from "bootstrap";
+import { useEffect } from "react";
+
+// Components
 import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Interests } from "./components/Interests";
-import { useEffect } from "react";
-import * as bootstrap from "bootstrap";
 
 function App() {
   useEffect(() => {
-    //   /*!
     //    * Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
     //    * Copyright 2013-2022 Start Bootstrap
     //    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-    //    */
-    //   //
-    //   // Scripts
-    //   //
+
     window.addEventListener("DOMContentLoaded", (event) => {
       // Activate Bootstrap scrollspy on the main nav element
       const sideNav = document.body.querySelector("#sideNav");

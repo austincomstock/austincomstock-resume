@@ -11,27 +11,22 @@ export const Skills = () => {
         <div className="subheading mb-3">Programming Languages & Tools</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
-            {/* <i className="fab fa-html5"></i> */}
-            <FaHtml5 />
+            <FaHtml5 /> HTML
           </li>
           <li className="list-inline-item">
-            {/* <i className="fab fa-css3-alt"></i> */}
-            <FaCss3Alt />
+            <FaCss3Alt /> CSS
           </li>
           <li className="list-inline-item">
-            {/* <i className="fab fa-js-square"></i> */}
-            <IoLogoJavascript />
+            <IoLogoJavascript /> JavaScript
           </li>
           <li className="list-inline-item">
-            {/* <i className="fab fa-react"></i> */}
-            <FaReact />
+            <FaReact /> React.js
           </li>
           <li className="list-inline-item">
-            {/* <i className="fab fa-node-js"></i> */}
-            <FaNodeJs />
+            <FaNodeJs /> Node.js
           </li>
           <li className="list-inline-item">
-            <FaNpm />
+            <FaNpm /> NPM
           </li>
         </ul>
         {/* Workflow */}

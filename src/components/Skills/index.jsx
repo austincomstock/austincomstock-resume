@@ -45,8 +45,8 @@ export const Skills = () => {
             Cross Browser Testing & Debugging
           </li>
           <li>Front End Development: HTML, CSS, JavaScript, ReactJS</li>
-          <li>Back End Development: NodeJS, ExpressJS, PostgreSQL</li>
-          <li>Tools: Visual Studio Code, Github, Vercel</li>
+          <li>Back End Development: NodeJS, ExpressJS, PostgreSQL, Vercel</li>
+          <li>Tools: Visual Studio Code, Github</li>
         </ul>
         {/* Awards & Certifications */}
         {/* <div className="subheading mb-3">Awards & Certifications</div>

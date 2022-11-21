@@ -5,6 +5,45 @@ export const Projects = () => {
     <section className="resume-section" id="projects">
       <div className="resume-section-content">
         <h2 className="mb-5">Projects</h2>
+        <div className="subheading mb-3 mt-3">Front End Projects</div>
+        <ul className="fa-ul mb-0">
+          <li>
+            <a
+              href="https://www.battistonelawncare.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Battistone Lawn Care
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://robofriends-opal.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RoboFriends
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://food-app-austincomstock.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              AwesomeEats
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://startup-five.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Startup
+            </a>
+          </li>
+        </ul>
         <div className="subheading mb-3">Full Stack Projects</div>
         <ul className="fa-ul mb-0">
           <li>
@@ -31,36 +70,6 @@ export const Projects = () => {
               rel="noreferrer"
             >
               Face Recognition Brain
-            </a>
-          </li>
-        </ul>
-        <div className="subheading mb-3 mt-3">Front End Projects</div>
-        <ul className="fa-ul mb-0">
-          <li>
-            <a
-              href="https://robofriends-opal.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              RoboFriends
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://food-app-austincomstock.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              AwesomeEats
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://startup-five.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Startup
             </a>
           </li>
         </ul>

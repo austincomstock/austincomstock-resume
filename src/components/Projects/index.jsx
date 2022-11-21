@@ -9,11 +9,29 @@ export const Projects = () => {
         <ul className="fa-ul mb-0">
           <li>
             <a
+              href="https://www.articulateauto.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Articulate Auto
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.battistonelawncare.com/"
               target="_blank"
               rel="noreferrer"
             >
               Battistone Lawn Care
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://c-m-g.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              C-M-G
             </a>
           </li>
           <li>

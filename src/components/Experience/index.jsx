@@ -7,6 +7,20 @@ export const Experience = () => {
         <h2 className="mb-5">Experience</h2>
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">
+            <h3 className="mb-0">Web Developer</h3>
+            <div className="subheading mb-3">Freelance Developer</div>
+            <p>
+              Frontend web developer who enjoys bringing websites to life.
+              Focusing on mobile-first responsive design. Customer satisfaction
+              is the number one priority.
+            </p>
+          </div>
+          <div className="flex-shrink-0">
+            <span className="text-primary">March 2022 - Current</span>
+          </div>
+        </div>
+        <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="flex-grow-1">
             <h3 className="mb-0">Operations Manager</h3>
             <div className="subheading mb-3">Enova International</div>
             <p>

@@ -16,10 +16,9 @@ export const About = () => {
           </a>
         </div>
         <p className="lead mb-5">
-          Hello my name is Austin, I'm a Web Developer passionate about building
-          and being creative. Interested in working together?
+          My name is Austin, I'm a Web Developer. Interested in working
+          together?
         </p>
-        <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">
           <a
             className="social-icon"

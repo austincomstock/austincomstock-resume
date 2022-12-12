@@ -16,8 +16,8 @@ export const About = () => {
           </a>
         </div>
         <p className="lead mb-5">
-          Hello my name is Austin, I'm a Front-End Web Developer passionate
-          about building and being creative. Interested in working together?
+          Hello my name is Austin, I'm a Web Developer passionate about building
+          and being creative. Interested in working together?
         </p>
         <p className="lead mb-5">Github/Social Links:</p>
         <div className="social-icons">

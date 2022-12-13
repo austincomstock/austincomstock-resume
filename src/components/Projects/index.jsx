@@ -69,7 +69,6 @@ export const Projects = () => {
               <i className="fas fa-check"></i>
             </span>
             <a
-              // className="social-icon"
               href="https://task-flip-ten.vercel.app/signin"
               target="_blank"
               rel="noreferrer"
@@ -82,7 +81,6 @@ export const Projects = () => {
               <i className="fas fa-check"></i>
             </span>
             <a
-              // className="social-icon"
               href="https://facerecognitionbrain1.herokuapp.com/"
               target="_blank"
               rel="noreferrer"

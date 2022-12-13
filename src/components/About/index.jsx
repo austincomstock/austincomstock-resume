@@ -22,21 +22,21 @@ export const About = () => {
         <div className="social-icons">
           <a
             className="social-icon"
-            href="https://github.com/austincomstock"
-            aria-label="github link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsGithub />
-          </a>
-          <a
-            className="social-icon"
             href="https://www.linkedin.com/in/austincomstock/"
             aria-label="linkedin link"
             target="_blank"
             rel="noreferrer"
           >
             <BsLinkedin />
+          </a>
+          <a
+            className="social-icon"
+            href="https://github.com/austincomstock"
+            aria-label="github link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsGithub />
           </a>
           <a
             className="social-icon"

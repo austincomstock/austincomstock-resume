@@ -62,7 +62,7 @@ export const Projects = () => {
             </a>
           </li>
         </ul>
-        <div className="subheading mb-3">Full Stack Projects</div>
+        <div className="subheading mb-3 mt-3">Full Stack Projects</div>
         <ul className="fa-ul mb-0">
           <li>
             <span className="fa-li">

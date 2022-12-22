@@ -5,7 +5,7 @@ export const Projects = () => {
     <section className="resume-section" id="projects">
       <div className="resume-section-content">
         <h2 className="mb-5">Projects</h2>
-        <div className="subheading mb-3 mt-3">Front End Projects</div>
+        <div className="subheading mb-3 mt-3">Front-End Projects</div>
         <ul className="fa-ul mb-0">
           <li>
             <a
@@ -62,7 +62,7 @@ export const Projects = () => {
             </a>
           </li>
         </ul>
-        <div className="subheading mb-3 mt-3">Full Stack Projects</div>
+        <div className="subheading mb-3 mt-3">Full-Stack Projects</div>
         <ul className="fa-ul mb-0">
           <li>
             <span className="fa-li">

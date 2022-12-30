@@ -8,5 +8,8 @@
         "hstack",
         "offcanvas",
         "vstack"
+    ],
+    "cSpell.ignoreWords": [
+        "pageview"
     ]
 }

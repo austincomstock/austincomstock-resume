@@ -9,7 +9,14 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Interests } from "./components/Interests";
 
+// Google Analytics
+// I followed the steps here - https://blog.saeloun.com/2022/02/17/how-to-integrate-react-app-with-google-analytics.html
+import ReactGA from "react-ga";
+const TRACKING_ID = "G-0BTF0559J3"; // OUR_TRACKING_ID aka MEASUREMENT ID
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
+  // Start useEffect for Bootstrap
   useEffect(() => {
     //    * Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
     //    * Copyright 2013-2022 Start Bootstrap
@@ -39,10 +46,17 @@ function App() {
       });
     });
   });
+  // End useEffect for Bootstrap
+
+  // Start useEffect for Google Analytics
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+  // End useEffect for Google Analytics
 
   return (
     <div>
-      {/* Navigation */}
+      {/* Start Navigation */}
       <section>
         <nav
           className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -101,6 +115,7 @@ function App() {
           </div>
         </nav>
       </section>
+      {/* End Navigation */}
       <>
         <About />
         <Experience />

@@ -12,8 +12,8 @@ import { Interests } from "./components/Interests";
 // Google Analytics
 // I followed the steps here - https://blog.saeloun.com/2022/02/17/how-to-integrate-react-app-with-google-analytics.html
 import ReactGA from "react-ga";
-// const TRACKING_ID = "G-0BTF0559J3"; // OUR_TRACKING_ID aka MEASUREMENT ID
-const TRACKING_ID = "347745770"; // OUR_TRACKING_ID aka MEASUREMENT ID
+// const TRACKING_ID = "G-0BTF0559J3"; // OUR_TRACKING_ID or MEASUREMENT ID based on V4
+const TRACKING_ID = "UA-60116963-2"; // OUR_TRACKING_ID or MEASUREMENT ID based on V4
 ReactGA.initialize(TRACKING_ID);
 
 function App() {

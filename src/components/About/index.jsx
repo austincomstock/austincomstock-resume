@@ -10,7 +10,6 @@ export const About = () => {
           <span className="text-primary">Comstock</span>
         </h1>
         <div className="subheading mb-5">
-          Riverton, Utah · (801) 558-9783 ·{" "}
           <a href="mailto: austinjcomstock@gmail.com">
             austinjcomstock@gmail.com
           </a>

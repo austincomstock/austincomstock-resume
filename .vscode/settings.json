@@ -1,15 +1,13 @@
 {
-    "cSpell.words": [
-        "austinprofilepic",
-        "Comstock",
-        "dropend",
-        "dropstart",
-        "focusable",
-        "hstack",
-        "offcanvas",
-        "vstack"
-    ],
-    "cSpell.ignoreWords": [
-        "pageview"
-    ]
+  "cSpell.words": [
+    "austinprofilepic",
+    "Comstock",
+    "dropend",
+    "dropstart",
+    "focusable",
+    "hstack",
+    "offcanvas",
+    "vstack"
+  ],
+  "cSpell.ignoreWords": ["freequote", "pageview"]
 }

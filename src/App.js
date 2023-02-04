@@ -7,12 +7,12 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
+import { FreeQuote } from "./components/FreeQuote/FreeQuote";
 import { Interests } from "./components/Interests";
 
 // Google Analytics
 // I followed the steps here - https://blog.saeloun.com/2022/02/17/how-to-integrate-react-app-with-google-analytics.html
 import ReactGA from "react-ga";
-// const TRACKING_ID = "G-0BTF0559J3"; // OUR_TRACKING_ID or MEASUREMENT ID based on V4
 const TRACKING_ID = "UA-60116963-2"; // OUR_TRACKING_ID or MEASUREMENT ID based on V4
 ReactGA.initialize(TRACKING_ID);
 
@@ -108,6 +108,11 @@ function App() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#freequote">
+                  Free Quote
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#interests">
                   Interests
                 </a>
@@ -122,6 +127,7 @@ function App() {
         <Experience />
         <Projects />
         <Skills />
+        <FreeQuote />
         <Interests />
       </>
     </div>

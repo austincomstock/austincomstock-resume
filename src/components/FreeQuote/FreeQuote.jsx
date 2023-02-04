@@ -7,8 +7,10 @@ export const FreeQuote = () => {
         <h2 className="mb-5">Build Quote</h2>
         <p>Answer the questions below for a free quote.</p>
         <hr></hr>
+        {/* FORM */}
+        {/* Docs https://formsubmit.co/ */}
         <form
-          action="https://formsubmit.co/austinjcomstock@gmail.com"
+          action="https://formsubmit.co/65b3f2b835c805c6fd13438e79a3e080"
           method="POST"
         >
           <div class="form-row">

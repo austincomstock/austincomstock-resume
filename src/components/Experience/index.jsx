@@ -10,12 +10,16 @@ export const Experience = () => {
             <h3 className="mb-0">Web Developer</h3>
             <div className="subheading mb-3">Freelance Developer</div>
             <p>
-              Web developer with a passion to design, build and collaborate.
-              Focused on user experience and mobile-first responsive design.
+              Responsible for building, testing and maintaining responsive
+              websites using HTML, CSS, JavaScript and React.js. Focus of
+              communication and collaboration with stakeholders to ensure design
+              and other requirements are met.
               <br></br>
               <br></br>
-              Skilled in client-side development utilizing HTML, CSS and
-              JavaScript with related libraries and frameworks.
+              Implementing interactive features, such as forms and carousels,
+              using JavaScript and Bootstrap. Target performance improvement by
+              optimizing images and implementing lazy loading. JavaScript with
+              related libraries and frameworks.
             </p>
           </div>
           <div className="flex-shrink-0">
@@ -27,19 +31,22 @@ export const Experience = () => {
             <h3 className="mb-0">Operations Manager</h3>
             <div className="subheading mb-3">Enova International</div>
             <p>
-              Identified need and spearheaded creation of internal
-              wiki/confluence pages to optimize the onboarding and training
-              process for leadership. This significantly improved the onboarding
-              process for managers and the leadership team due to all of the
-              content being available in one location.
+              Co-led startup of new Utah office. After the office and teams were
+              established, I led a cross-functional team of fifteen
+              representatives. The team goal was to onboard new customers by
+              assisting them with personal loans. I was successful here by using
+              my communication and analytic skills to review data, identify
+              trends and drive results based on the data.
               <br></br>
               <br></br>
-              Succeeded in onboarding team of fourteen new representatives
-              during the initial wave of COVID-19, our team was in-office for
-              one day before moving to a work from home environment. This was a
-              success due to setting expectations early with the team and
-              focusing on each representatives current challenges and personal
-              goals during weekly meetings.
+              Due to the nature of the cross-functional team, knowledge of
+              several different processes and procedures were required. This was
+              a challenge because the information for these processes and
+              procedures were spread across different locations. After
+              identifying this I spearheaded the creation of an internal Wiki
+              page to house the content. This significantly improved the ramp-up
+              time for leadership to onboard and train new employees on
+              processes due to the content being available in one location.
             </p>
           </div>
           <div className="flex-shrink-0">

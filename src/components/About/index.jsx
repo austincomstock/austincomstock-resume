@@ -15,8 +15,10 @@ export const About = () => {
           </a>
         </div>
         <p className="lead mb-5">
-          My name is Austin, I'm a Web Developer. Interested in working
-          together?
+          My name is Austin, I'm a Web Developer. I can help you bring your
+          website to life. Interested in working together? You can email me,
+          contact me via a social link or fill out the form below for a free
+          quote.
         </p>
         <div className="social-icons">
           <a

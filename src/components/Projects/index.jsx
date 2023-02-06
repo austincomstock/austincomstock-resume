@@ -15,6 +15,10 @@ export const Projects = () => {
             >
               C-M-G
             </a>
+            <p>
+              Business site for Construction Management Group. Check out the
+              Estimates page for a free estimate.
+            </p>
           </li>
           <li>
             <a
@@ -24,6 +28,7 @@ export const Projects = () => {
             >
               Articulate Auto
             </a>
+            <p>Business site for Articulate Auto.</p>
           </li>
           <li>
             <a
@@ -33,6 +38,7 @@ export const Projects = () => {
             >
               Battistone Lawn Care
             </a>
+            <p>Business site for Battistone Lawn Care.</p>
           </li>
           <li>
             <a
@@ -42,8 +48,9 @@ export const Projects = () => {
             >
               RoboFriends
             </a>
+            <p>Search for a robot with this robot generator.</p>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://food-app-austincomstock.vercel.app/"
               target="_blank"
@@ -60,7 +67,7 @@ export const Projects = () => {
             >
               Startup
             </a>
-          </li>
+          </li> */}
         </ul>
         <div className="subheading mb-3 mt-3">Full-Stack Projects</div>
         <ul className="fa-ul mb-0">
@@ -75,18 +82,23 @@ export const Projects = () => {
             >
               Task Flip
             </a>
+            <p>Login to this app to keep track of your personal tasks.</p>
           </li>
           <li>
             <span className="fa-li">
               <i className="fas fa-check"></i>
             </span>
             <a
-              href="https://facerecognitionbrain1.herokuapp.com/"
+              href="https://supa-face-brain.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
-              Face Recognition Brain
+              Supa Face Brain
             </a>
+            <p>
+              This app will detect faces in pictures using a Clarifai api. Login
+              and enter a url picture with a face to see it work.
+            </p>
           </li>
         </ul>
       </div>

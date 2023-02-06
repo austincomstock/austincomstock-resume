@@ -55,7 +55,7 @@ export const FreeQuote = () => {
             />
           </div>
           <div class="form-group col-md-6">
-            <label for="businessDescription">Description Of Business</label>
+            <label for="businessDescription">Description of Business</label>
             <textarea
               class="form-control"
               id="businessDescription"
@@ -73,7 +73,7 @@ export const FreeQuote = () => {
             />
           </div>
           <div class="form-group col-md-6">
-            <label for="projectDescription">Description Of Project</label>
+            <label for="projectDescription">Description of Project</label>
             <textarea
               class="form-control"
               id="projectDescription"

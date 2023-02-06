@@ -96,8 +96,8 @@ export const Projects = () => {
               Supa Face Brain
             </a>
             <p>
-              This app will detect faces in pictures using a Clarifai api. Login
-              and enter a url picture with a face to see it work.
+              This app will detect faces in pictures. Login and enter a picture
+              with a face to see it work.
             </p>
           </li>
         </ul>

@@ -1,5 +1,6 @@
 import React from "react";
-import { BsFacebook, BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsInstagram, BsEnvelope } from "react-icons/bs";
+import { TypeAnimation } from "react-type-animation";
 
 export const About = () => {
   return (
@@ -9,18 +10,43 @@ export const About = () => {
           Austin
           <span className="text-primary">Comstock</span>
         </h1>
-        <div className="subheading mb-5">
-          <a href="mailto: austinjcomstock@gmail.com">
-            austinjcomstock@gmail.com
-          </a>
-        </div>
+        {/* TypeAnimation Start */}
+        <TypeAnimation
+          sequence={[
+            "I'm a web developer.", // Types content
+            2500, // Waits 2.5s
+            "I'm a software developer.", // Deletes previous content and types content
+            2500, // Waits 2.5s
+            // "I can help bring your website to life.", // Deletes previous content and types content
+            // 3000,
+            () => {
+              console.log("Done typing!"); // Place optional callbacks anywhere in the array
+            },
+          ]}
+          wrapper="div"
+          cursor={true}
+          repeat={Infinity}
+          style={{ fontSize: "1.8em" }}
+          className="subheading mb-5"
+        />
+        {/* TypeAnimation End*/}
         <p className="lead mb-5">
-          My name is Austin, I'm a Web Developer. I can help you bring your
-          website to life. Interested in working together? You can email me,
-          contact me via a social link or fill out the form below for a free
-          quote.
+          My name is Austin, I'm a Web Developer. I can help bring your website
+          to life.
+          <br></br>
+          Interested in working together? Contact me via a social link or fill
+          out the form below for a <a href="#freequote">free quote</a>.
         </p>
         <div className="social-icons">
+          <a
+            className="social-icon"
+            href="mailto: austinjcomstock@gmail.com"
+            aria-label="email link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsEnvelope />
+          </a>
           <a
             className="social-icon"
             href="https://www.linkedin.com/in/austincomstock/"
@@ -38,15 +64,6 @@ export const About = () => {
             rel="noreferrer"
           >
             <BsGithub />
-          </a>
-          <a
-            className="social-icon"
-            href="https://www.facebook.com/austin.comstock.18/"
-            aria-label="facebook link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsFacebook />
           </a>
           <a
             className="social-icon"

@@ -1,4 +1,9 @@
 import React from "react";
+import cmgImg from "./CMG_1-min.JPG";
+import articulateautoImg from "./ArticulateAuto_1-min.JPG";
+import battistonelawncareImg from "./BattistoneLawnCare_1-min.JPG";
+import taskflipImg from "./TaskFlip_1-min.JPG";
+import supafacebrainImg from "./SupaFaceBrain_1-min.JPG";
 
 export const Projects = () => {
   return (
@@ -19,6 +24,7 @@ export const Projects = () => {
               Business site for Construction Management Group. Check out the
               Estimates page for a free estimate.
             </p>
+            <img src={cmgImg} alt="CMG" className="projectsImg" />
           </li>
           <li>
             <a
@@ -29,6 +35,11 @@ export const Projects = () => {
               Articulate Auto
             </a>
             <p>Business site for Articulate Auto.</p>
+            <img
+              src={articulateautoImg}
+              alt="Articulate Auto"
+              className="projectsImg"
+            />
           </li>
           <li>
             <a
@@ -39,36 +50,14 @@ export const Projects = () => {
               Battistone Lawn Care
             </a>
             <p>Business site for Battistone Lawn Care.</p>
+            <img
+              src={battistonelawncareImg}
+              alt="Battistone Lawn Care"
+              className="projectsImg"
+            />
           </li>
-          <li>
-            <a
-              href="https://robofriends-opal.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              RoboFriends
-            </a>
-            <p>Search for a robot with this robot generator.</p>
-          </li>
-          {/* <li>
-            <a
-              href="https://food-app-austincomstock.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              AwesomeEats
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://startup-five.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Startup
-            </a>
-          </li> */}
         </ul>
+        <hr></hr>
         <div className="subheading mb-3 mt-3">Full-Stack Projects</div>
         <ul className="fa-ul mb-0">
           <li>
@@ -83,6 +72,7 @@ export const Projects = () => {
               Task Flip
             </a>
             <p>Login to this app to keep track of your personal tasks.</p>
+            <img src={taskflipImg} alt="Task Flip" className="projectsImg" />
           </li>
           <li>
             <span className="fa-li">
@@ -99,6 +89,11 @@ export const Projects = () => {
               This app will detect faces in pictures. Login and enter a picture
               with a face to see it work.
             </p>
+            <img
+              src={supafacebrainImg}
+              alt="Supa Face Brain"
+              className="projectsImg"
+            />
           </li>
         </ul>
       </div>

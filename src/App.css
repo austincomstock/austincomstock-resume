@@ -5802,6 +5802,13 @@ fieldset:disabled .btn {
   }
 }
 
+.projectsImg {
+  height: 350px;
+  min-width: 378px;
+  max-width: 700px;
+  border: solid thin #000;
+}
+
 .list-group {
   display: flex;
   flex-direction: column;

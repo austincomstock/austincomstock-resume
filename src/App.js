@@ -8,7 +8,6 @@ import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { FreeQuote } from "./components/FreeQuote/FreeQuote";
-import { Interests } from "./components/Interests";
 
 // Google Analytics
 // I followed the steps here - https://blog.saeloun.com/2022/02/17/how-to-integrate-react-app-with-google-analytics.html
@@ -112,11 +111,6 @@ function App() {
                   Free Quote
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#interests">
-                  Interests
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
@@ -128,7 +122,6 @@ function App() {
         <Projects />
         <Skills />
         <FreeQuote />
-        <Interests />
       </>
     </div>
   );

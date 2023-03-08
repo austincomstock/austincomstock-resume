@@ -5,7 +5,9 @@ export const FreeQuote = () => {
     <section className="resume-section" id="freequote">
       <div className="resume-section-content">
         <h2 className="mb-5">Build Quote</h2>
-        <p>Answer the questions below for a free quote.</p>
+        <div className="subheading mb-3">
+          Answer the questions below for a free quote.
+        </div>
         <hr></hr>
         {/* FORM */}
         {/* Docs https://formsubmit.co/ */}
@@ -13,97 +15,97 @@ export const FreeQuote = () => {
           action="https://formsubmit.co/65b3f2b835c805c6fd13438e79a3e080"
           method="POST"
         >
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputFullName">Full Name</label>
+          <div className="form-row">
+            <div className="form-group col-md-6">
+              <label htmlFor="inputFullName">Full Name</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="inputFullName"
                 name="fullName"
                 required
               />
             </div>
-            <div class="form-group col-md-6">
-              <label for="inputEmail">Email</label>
+            <div className="form-group col-md-6">
+              <label htmlFor="inputEmail">Email</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="inputEmail"
                 name="email"
                 required
               />
             </div>
           </div>
-          <div class="form-group col-md-6">
-            <label for="businessPhone">Contact Phone</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="businessPhone">Contact Phone</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="businessPhone"
               name="phone"
             />
           </div>
-          <div class="form-group col-md-6">
-            <label for="businessName">Business Name</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="businessName">Business Name</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="businessName"
               name="businessName"
               required
             />
           </div>
-          <div class="form-group col-md-6">
-            <label for="businessDescription">Description of Business</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="businessDescription">Description of Business</label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="businessDescription"
               name="businessDescription"
               placeholder="Provide a short description of your business services."
             />
           </div>
-          <div class="form-group col-md-6">
-            <label for="businessWebSite">Current Website</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="businessWebSite">Current Website</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="businessWebSite"
               name="businessWebSite"
             />
           </div>
-          <div class="form-group col-md-6">
-            <label for="projectDescription">Description of Project</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="projectDescription">Description of Project</label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="projectDescription"
               name="projectDescription"
               placeholder="Tell us about what you would like to create."
             />
           </div>
-          <div class="form-group col-md-6">
-            <label for="database">Database Requirements</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="database">Database Requirements</label>
             <p style={{ opacity: 0.75 }}>
               Will your project need to store data?
             </p>
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="databaseNo">
+            <div className="form-check form-check-inline">
+              <label className="form-check-label" htmlFor="databaseNo">
                 No
               </label>
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="database"
                 id="databaseNo"
                 value="no"
               />
             </div>
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="databaseYes">
+            <div className="form-check form-check-inline">
+              <label className="form-check-label" htmlFor="databaseYes">
                 Yes
               </label>
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="database"
                 id="databaseYes"
@@ -111,29 +113,29 @@ export const FreeQuote = () => {
               />
             </div>
           </div>
-          <div class="form-group col-md-6">
-            <label for="userSignIn">User Sign In</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="userSignIn">User Sign In</label>
             <p style={{ opacity: 0.75 }}>
               Will your project require users to sign in?
             </p>
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="userSignInNo">
+            <div className="form-check form-check-inline">
+              <label className="form-check-label" htmlFor="userSignInNo">
                 No
               </label>
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="userSignIn"
                 id="userSignInNo"
                 value="no"
               />
             </div>
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="userSignInYes">
+            <div className="form-check form-check-inline">
+              <label className="form-check-label" htmlFor="userSignInYes">
                 Yes
               </label>
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="userSignIn"
                 id="userSignInYes"
@@ -141,29 +143,35 @@ export const FreeQuote = () => {
               />
             </div>
           </div>
-          <div class="form-group col-md-6">
-            <label for="developmentSupport">Development Support</label>
+          <div className="form-group col-md-6">
+            <label htmlFor="developmentSupport">Development Support</label>
             <p style={{ opacity: 0.75 }}>
               Will your project require support after launch?
             </p>
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="developmentSupportNo">
+            <div className="form-check form-check-inline">
+              <label
+                className="form-check-label"
+                htmlFor="developmentSupportNo"
+              >
                 No
               </label>
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="developmentSupport"
                 id="developmentSupportNo"
                 value="no"
               />
             </div>
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="developmentSupportYes">
+            <div className="form-check form-check-inline">
+              <label
+                className="form-check-label"
+                htmlFor="developmentSupportYes"
+              >
                 Yes
               </label>
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="developmentSupport"
                 id="developmentSupportYes"
@@ -172,7 +180,7 @@ export const FreeQuote = () => {
             </div>
           </div>
           <hr></hr>
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>

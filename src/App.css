@@ -5808,6 +5808,7 @@ fieldset:disabled .btn {
   margin: 2px;
   border: solid thin #000;
   padding: 1%;
+  background-color: #6c757d;
 }
 
 .projectsContainer {

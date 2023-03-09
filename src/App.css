@@ -5804,9 +5804,17 @@ fieldset:disabled .btn {
 
 .projectsImg {
   height: 350px;
-  min-width: 378px;
-  max-width: 700px;
+  width: 360px;
+  margin: 2px;
   border: solid thin #000;
+  padding: 1%;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
 }
 
 .list-group {

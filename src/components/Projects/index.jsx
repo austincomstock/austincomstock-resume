@@ -13,7 +13,7 @@ export const Projects = () => {
         <h2 className="mb-5">Projects</h2>
         <h3 className="mb-0">Front-End Projects</h3>
         <div className="subheading mb-3 mt-3">
-          Click the image to vist the site.
+          Click the image to visit the site.
         </div>
         <div className="projectsContainer">
           <a href="https://c-m-g.vercel.app/" target="_blank" rel="noreferrer">
@@ -47,7 +47,7 @@ export const Projects = () => {
         <br></br>
         <h3 className="mb-0">Full-Stack Projects</h3>
         <div className="subheading mb-3 mt-3">
-          Click the image to vist the site.
+          Click the image to visit the site.
         </div>
         <div className="projectsContainer">
           <a

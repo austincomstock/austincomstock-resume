@@ -4,6 +4,7 @@ export const Experience = () => {
   return (
     <section className="resume-section" id="experience">
       <div className="resume-section-content">
+        <hr></hr>
         <h2 className="mb-5">Experience</h2>
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">

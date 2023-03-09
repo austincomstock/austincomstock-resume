@@ -6,6 +6,7 @@ export const Skills = () => {
   return (
     <section className="resume-section" id="skills">
       <div className="resume-section-content">
+        <hr></hr>
         <h2 className="mb-5">Skills</h2>
         {/* Programming Languages & Tools */}
         <div className="subheading mb-3">Programming Languages & Tools</div>

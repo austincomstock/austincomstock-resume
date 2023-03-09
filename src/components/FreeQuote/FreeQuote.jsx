@@ -4,11 +4,11 @@ export const FreeQuote = () => {
   return (
     <section className="resume-section" id="freequote">
       <div className="resume-section-content">
+        <hr></hr>
         <h2 className="mb-5">Build Quote</h2>
         <div className="subheading mb-3">
           Answer the questions below for a free quote.
         </div>
-        <hr></hr>
         {/* FORM */}
         {/* Docs https://formsubmit.co/ */}
         <form

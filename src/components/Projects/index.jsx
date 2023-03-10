@@ -4,6 +4,7 @@ import articulateautoImg from "./ArticulateAuto_1-min.JPG";
 import battistonelawncareImg from "./BattistoneLawnCare_1-min.JPG";
 import taskflipImg from "./TaskFlip_1-min.JPG";
 import supafacebrainImg from "./SupaFaceBrain_1-min.JPG";
+import githubImg from "./Github_1-min.JPG";
 
 export const Projects = () => {
   return (
@@ -11,7 +12,6 @@ export const Projects = () => {
       <div className="resume-section-content">
         <hr></hr>
         <h2 className="mb-5">Projects</h2>
-        <h3 className="mb-0">Front-End Projects</h3>
         <div className="subheading mb-3 mt-3">
           Click the image to visit the site.
         </div>
@@ -43,13 +43,6 @@ export const Projects = () => {
               className="projectsImg"
             />
           </a>
-        </div>
-        <br></br>
-        <h3 className="mb-0">Full-Stack Projects</h3>
-        <div className="subheading mb-3 mt-3">
-          Click the image to visit the site.
-        </div>
-        <div className="projectsContainer">
           <a
             href="https://task-flip-ten.vercel.app/signin"
             target="_blank"
@@ -67,6 +60,13 @@ export const Projects = () => {
               alt="Supa Face Brain"
               className="projectsImg"
             />
+          </a>
+          <a
+            href="https://github.com/austincomstock"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={githubImg} alt="Github" className="projectsImg" />
           </a>
         </div>
       </div>

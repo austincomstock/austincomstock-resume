@@ -54,16 +54,42 @@ export const Skills = () => {
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <p>Adobe Express - Media Creation</p>
-              <p>Google Analytics - Website Visitor Tracking</p>
-              <p>Hootsuite - Social Media Scheduling</p>
-              <p>Atlassian - Project & Task Management</p>
+              <p>
+                <span className="fw-bold">Adobe Express</span> -{" "}
+                <span className="fst-italic">Media Creation</span>
+              </p>
+              <p>
+                <span className="fw-bold">Google Analytics</span> -{" "}
+                <span className="fst-italic">Website Visitor Tracking</span>
+              </p>
+              <p>
+                <span className="fw-bold">Hootsuite</span> -{" "}
+                <span className="fst-italic">Social Media Scheduling</span>
+              </p>
+              <p>
+                <span className="fw-bold">Atlassian</span> -{" "}
+                <span className="fst-italic">Project & Task Management</span>
+              </p>
             </div>
             <div class="col">
-              <p>Visual Studio Code - Code Editor</p>
-              <p>Github - Code Hosting & Version Control</p>
-              <p>Vercel - Website & Services Hosting</p>
-              <p>Bootstrap - CSS Framework</p>
+              <p>
+                <span className="fw-bold">Visual Studio Code</span> -{" "}
+                <span className="fst-italic">Code Editor</span>
+              </p>
+              <p>
+                <span className="fw-bold">Github</span> -{" "}
+                <span className="fst-italic">
+                  Code Hosting & Version Control
+                </span>
+              </p>
+              <p>
+                <span className="fw-bold">Vercel</span> -{" "}
+                <span className="fst-italic">Website & Services Hosting</span>
+              </p>
+              <p>
+                <span className="fw-bold">Bootstrap</span> -{" "}
+                <span className="fst-italic">CSS Framework</span>
+              </p>
             </div>
           </div>
         </div>

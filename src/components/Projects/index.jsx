@@ -5,6 +5,7 @@ import battistonelawncareImg from "./BattistoneLawnCare_1-min.JPG";
 import taskflipImg from "./TaskFlip_1-min.JPG";
 import supafacebrainImg from "./SupaFaceBrain_1-min.JPG";
 import githubImg from "./Github_1-min.JPG";
+import tortoisehareImg from "./Tortoise&HareRC_1-min.JPG";
 
 export const Projects = () => {
   return (
@@ -40,6 +41,17 @@ export const Projects = () => {
             <img
               src={battistonelawncareImg}
               alt="Battistone Lawn Care"
+              className="projectsImg"
+            />
+          </a>
+          <a
+            href="https://austincomstock.github.io/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={tortoisehareImg}
+              alt="Tortoise & Hare RC"
               className="projectsImg"
             />
           </a>

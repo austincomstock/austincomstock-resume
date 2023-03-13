@@ -7,7 +7,8 @@ export const FreeQuote = () => {
         <hr></hr>
         <h2 className="mb-5">Build Quote</h2>
         <div className="subheading mb-3">
-          Answer the questions below for a free quote.
+          Do you need help with your website? Answer the questions below for a
+          free quote.
         </div>
         {/* FORM */}
         {/* Docs https://formsubmit.co/ */}

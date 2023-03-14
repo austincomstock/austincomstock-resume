@@ -90,6 +90,12 @@ export const Skills = () => {
                 <span className="fw-bold">Bootstrap</span> -{" "}
                 <span className="fst-italic">CSS Framework</span>
               </p>
+              {/* <p>
+                <span className="fw-bold">Counting Characters</span> -{" "}
+                <span className="fst-italic">
+                  Image Compression & Character Counter
+                </span>
+              </p> */}
             </div>
           </div>
         </div>

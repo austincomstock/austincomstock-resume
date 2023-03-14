@@ -7,6 +7,7 @@ import supafacebrainImg from "./SupaFaceBrain_1-min.JPG";
 import githubImg from "./Github_1-min.JPG";
 import tortoisehareImg from "./Tortoise&HareRC_1-min.JPG";
 import weatherappImg from "./WeatherApp_1-min.JPG";
+import newslettersignupImg from "./NewsLetterSignup_1-min.JPG";
 
 export const Projects = () => {
   return (
@@ -71,6 +72,17 @@ export const Projects = () => {
             <img
               src={tortoisehareImg}
               alt="Tortoise & Hare RC"
+              className="projectsImg"
+            />
+          </a>
+          <a
+            href="https://agreeable-dove-overalls.cyclic.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={newslettersignupImg}
+              alt="News Letter Signup"
               className="projectsImg"
             />
           </a>

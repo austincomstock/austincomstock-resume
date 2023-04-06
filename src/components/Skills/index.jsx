@@ -70,6 +70,10 @@ export const Skills = () => {
                 <span className="fw-bold">Atlassian</span> -{" "}
                 <span className="fst-italic">Project & Task Management</span>
               </p>
+              <p>
+                <span className="fw-bold">Supabase</span> -{" "}
+                <span className="fst-italic">PostgreSQL Database</span>
+              </p>
             </div>
             <div class="col">
               <p>
@@ -89,6 +93,10 @@ export const Skills = () => {
               <p>
                 <span className="fw-bold">Bootstrap</span> -{" "}
                 <span className="fst-italic">CSS Framework</span>
+              </p>
+              <p>
+                <span className="fw-bold">Firebase & MongoDB</span> -{" "}
+                <span className="fst-italic">NoSQL Database</span>
               </p>
               {/* <p>
                 <span className="fw-bold">Counting Characters</span> -{" "}

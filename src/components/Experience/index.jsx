@@ -18,9 +18,9 @@ export const Experience = () => {
               <br></br>
               <br></br>
               Implementing interactive features, such as forms and carousels,
-              using JavaScript and Bootstrap. Target performance improvement by
-              optimizing images and implementing lazy loading. JavaScript with
-              related libraries and frameworks.
+              using JavaScript and Bootstrap. Improve application performance by
+              optimizing images, implementing lazy loading while building with a
+              focus on search engine optimization.
             </p>
           </div>
           <div className="flex-shrink-0">

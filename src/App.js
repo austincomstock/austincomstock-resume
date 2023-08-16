@@ -10,11 +10,10 @@ import { Skills } from "./components/Skills";
 import { FreeQuote } from "./components/FreeQuote/FreeQuote";
 
 // Google Analytics
-// I followed the steps here - https://blog.saeloun.com/2022/02/17/how-to-integrate-react-app-with-google-analytics.html
+// I followed the steps here - https://medium.com/@vergil333/google-analytics-4-in-react-a250005c2455
 import ReactGA from "react-ga4";
-// const TRACKING_ID = "UA-60116963-2"; // OUR_TRACKING_ID or MEASUREMENT ID based on V4
-const MEASUREMENT_ID = "G-P02XHL3QKY"; // MEASUREMENT ID based on V4
-ReactGA.initialize(MEASUREMENT_ID, { debug: true });
+const MEASUREMENT_ID = "G-P02XHL3QKY";
+ReactGA.initialize(MEASUREMENT_ID);
 
 function App() {
   // Start useEffect for Bootstrap
@@ -48,12 +47,6 @@ function App() {
     });
   });
   // End useEffect for Bootstrap
-
-  // Start useEffect for Google Analytics
-  // useEffect(() => {
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // }, []);
-  // End useEffect for Google Analytics
 
   return (
     <div>

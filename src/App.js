@@ -13,8 +13,8 @@ import { FreeQuote } from "./components/FreeQuote/FreeQuote";
 // I followed the steps here - https://blog.saeloun.com/2022/02/17/how-to-integrate-react-app-with-google-analytics.html
 import ReactGA from "react-ga";
 // const TRACKING_ID = "UA-60116963-2"; // OUR_TRACKING_ID or MEASUREMENT ID based on V4
-const TRACKING_ID = "G-P02XHL3QKY";
-ReactGA.initialize(TRACKING_ID);
+const MEASUREMENT_ID = "G-P02XHL3QKY"; // MEASUREMENT ID based on V4
+ReactGA.initialize(MEASUREMENT_ID);
 
 function App() {
   // Start useEffect for Bootstrap

@@ -9,7 +9,7 @@ export const Experience = () => {
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">
             <h3 className="mb-0">Web Developer</h3>
-            <div className="subheading mb-3">Freelance Developer</div>
+            <div className="subheading mb-3">Articulate LLC</div>
             <p>
               Responsible for building, testing and maintaining responsive
               websites using HTML, CSS, JavaScript and React.js. Focus of

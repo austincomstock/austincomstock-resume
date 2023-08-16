@@ -51,9 +51,9 @@ export const Skills = () => {
         <br></br>
         {/* Design & Tools */}
         <div className="subheading mb-3">Design & Tools</div>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col">
               <p>
                 <span className="fw-bold">Adobe Express</span> -{" "}
                 <span className="fst-italic">Media Creation</span>
@@ -75,7 +75,7 @@ export const Skills = () => {
                 <span className="fst-italic">PostgreSQL Database</span>
               </p>
             </div>
-            <div class="col">
+            <div className="col">
               <p>
                 <span className="fw-bold">Visual Studio Code</span> -{" "}
                 <span className="fst-italic">Code Editor</span>

@@ -108,7 +108,7 @@ export const Experience = () => {
                 Developed reports to track the complaint pipeline along with a
                 secondary process to escalate high level complaints to the
                 executive group. This brought awareness to the leadership team
-                on business process that needed improvement.
+                on business processes that needed improvement.
               </li>
               <br></br>
               <li>

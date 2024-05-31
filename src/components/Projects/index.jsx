@@ -76,7 +76,7 @@ export const Projects = () => {
             />
           </a>
           <a
-            href="https://agreeable-dove-overalls.cyclic.app/"
+            href="https://newsletter-signup-58me.onrender.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -87,7 +87,7 @@ export const Projects = () => {
             />
           </a>
           <a
-            href="https://lilac-chiton-fez.cyclic.app/"
+            href="https://weather-app-xp7z.onrender.com/"
             target="_blank"
             rel="noreferrer"
           >

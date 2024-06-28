@@ -7,7 +7,7 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
-import { FreeQuote } from "./components/FreeQuote/FreeQuote";
+// import { FreeQuote } from "./components/FreeQuote/FreeQuote";
 
 // Google Analytics
 // I followed the steps here - https://medium.com/@vergil333/google-analytics-4-in-react-a250005c2455
@@ -100,11 +100,11 @@ function App() {
                   Skills
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#freequote">
                   Free Quote
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
@@ -115,7 +115,7 @@ function App() {
         <Experience />
         <Projects />
         <Skills />
-        <FreeQuote />
+        {/* <FreeQuote /> */}
       </>
     </div>
   );

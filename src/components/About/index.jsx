@@ -34,8 +34,8 @@ export const About = () => {
           My name is Austin, I'm a Web Developer. I can help bring your website
           to life.
           <br></br>
-          Interested in working together? Contact me via a social link or fill
-          out the form below for a <a href="#freequote">free quote</a>.
+          Interested in working together? Contact me via email or one of my
+          social links.
         </p>
         <div className="social-icons">
           <a

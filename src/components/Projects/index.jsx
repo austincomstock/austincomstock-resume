@@ -1,7 +1,8 @@
 import React from "react";
 import cmgImg from "./CMG_1-min.JPG";
-import articulateautoImg from "./ArticulateAuto_1-min.JPG";
+// import articulateautoImg from "./ArticulateAuto_1-min.JPG";
 import battistonelawncareImg from "./BattistoneLawnCare_1-min.JPG";
+import robofriendsImg from "./RoboFriends-min.JPG";
 import taskflipImg from "./TaskFlip_1-min.JPG";
 import supafacebrainImg from "./SupaFaceBrain_1-min.JPG";
 import githubImg from "./Github_1-min.JPG";
@@ -23,7 +24,7 @@ export const Projects = () => {
             <img src={cmgImg} alt="CMG" className="projectsImg" />
           </a>
 
-          <a
+          {/* <a
             href="https://www.articulateauto.com/"
             target="_blank"
             rel="noreferrer"
@@ -33,7 +34,7 @@ export const Projects = () => {
               alt="Articulate Auto"
               className="projectsImg"
             />
-          </a>
+          </a> */}
 
           <a
             href="https://www.battistonelawncare.com/"
@@ -46,6 +47,19 @@ export const Projects = () => {
               className="projectsImg"
             />
           </a>
+
+          <a
+            href="https://robofriends-opal.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={robofriendsImg}
+              alt="Robo Friends"
+              className="projectsImg"
+            />
+          </a>
+
           <a
             href="https://supa-face-brain.vercel.app/"
             target="_blank"
